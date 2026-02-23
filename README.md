@@ -23,3 +23,12 @@ Many qualified candidates are filtered out by ATS because of missing keywords or
 1. Clone the repository:
    ```bash
    git clone https://github.com
+
+  ## 🚀 How to Run (Windows)
+
+1. **Repository Clone करें:**
+
+```bash
+git clone https://github.com/Chandrakant0211/CareerBoost-AI-Resume-Analyzer.git
+cd CareerBoost-AI-Resume-Analyzercd CareerBoost-AI-Resume-Analyzer
+
