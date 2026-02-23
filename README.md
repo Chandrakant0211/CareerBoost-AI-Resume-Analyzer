@@ -32,6 +32,38 @@ Many qualified candidates are filtered out by ATS because of missing keywords or
 
 1. **Repository Clone करें:**
 
-```bash
-git clone https://github.com/Chandrakant0211/CareerBoost-AI-Resume-Analyzer.git
-cd CareerBoost-AI-Resume-Analyzer
+   **hugu**
+
+
+**git clone https://github.com/Chandrakant0211/CareerBoost-AI-Resume-Analyzer.git
+cd CareerBoost-AI-Resume-Analyzer**
+
+
+ ## 2.Virtual Environment बनाएं:
+python -m venv .venv
+
+## 3.Virtual Environment Activate करें (CMD):
+**.venv\Scripts\activate**
+
+## 4. Required Libraries Install करें:
+  **pip install -r requirements.txt**
+  
+## अगर requirements.txt नहीं है, तो manually install करें:
+**pip install streamlit PyMuPDF nltk**
+
+## 5.Streamlit App Run करें
+**streamlit run carrierBoostAi.py**
+## 6. Optional: NLTK Resources Download करें (अगर app text processing error दे):
+**import nltk**
+**nltk.download('punkt')**
+**nltk.download('stopwords')**
+
+
+## 📂 Project Structure
+**CareerBoost-AI-Resume-Analyzer/**
+**│
+├── carrierBoostAi.py        # Main Streamlit app
+├── skills_db.py             # Custom skills database module
+├── requirements.txt         # Python dependencies
+├── README.md
+└── images/**                  # Screenshots or images
